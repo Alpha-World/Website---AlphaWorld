@@ -1,6 +1,8 @@
 <template>
-    <div class="w-full h-full grid grid-cols-3 grid-rows-3">
-       
+    <div class="w-[90%] mx-auto h-full grid grid-cols-3 grid-rows-2">
+       <slot>
+
+       </slot>
     </div>
 </template>
 
