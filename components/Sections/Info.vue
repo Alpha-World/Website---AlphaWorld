@@ -7,21 +7,21 @@
           <div class="w-full h-1/2 lg:grid hidden  grid-cols-3">
             <div class="w-full h-full relative">
               <img
-                src="/images/info-card-3.png"
+                src="/images/info-card-three.png"
                 class="absolute w-[60%] top-1/4 left-12"
                 alt=""
               />
             </div>
             <div class="w-full h-full relative">
               <img
-                src="/images/info-card-2.png"
+                src="/images/info-card-two.png"
                 class="absolute -bottom-1/2 left-[20%]"
                 alt=""
               />
             </div>
             <div class="w-full h-full relative">
               <img
-                src="/images/info-card-1.png"
+                src="/images/info-card-one.png"
                 class="absolute top-1/5 right-2"
                 alt=""
               />
@@ -32,28 +32,28 @@
             
             <div class="w-full h-full relative">
               <img
-                src="/images/info-card-2.png"
+                src="/images/info-card-two.png"
                 class="absolute w-[50%] top-1/2 left-[30%]"
                 alt=""
               />
             </div>
             <div class="w-full col-start-2 row-start-1 h-full  relative">
             <img
-              src="/images/info-card-4.png"
+              src="/images/info-card-four.png"
               class="absolute top-[45%] left-8 z-[1004]"
               alt=""
             />
           </div>
             <div class="w-full h-full col-start-2 row-start-2 relative">
               <img
-                src="/images/info-card-1.png"
+                src="/images/info-card-one.png"
                 class="absolute top-10 right-2"
                 alt=""
               />
             </div>
             <div class="w-full col-start-1 row-start-2 h-full  relative">
             <img
-              src="/images/info-card-3.png"
+              src="/images/info-card-three.png"
               class="absolute -bottom-[54%] left-2 z-[1004]"
               alt=""
             />
