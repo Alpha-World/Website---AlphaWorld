@@ -70,10 +70,10 @@
               />
             </div>
             <div class="w-[90%] text-left text-base mx-auto lg:hidden block">
-              <!-- <h5 class="text-left">
+              <h5 class="text-left">
                  AlphaWorld is a secure all-in-one mobile app which offers
                 multiple features ranging from:
-              </h5> -->
+              </h5>
               <ul class="text-stone-900 w-[90%] mx-auto list-disc">
                 <li class="">A Social Media with audio comments,</li>
                 <li class="">Video-Meet for Love & Business Networking,</li>
