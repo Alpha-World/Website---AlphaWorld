@@ -27,6 +27,8 @@
               />
             </div>
         </div>
+
+        
         <!-- mobile cards -->
           <div class="w-full h-3/4 lg:hidden grid  grid-cols-2 grid-rows-2">
             
