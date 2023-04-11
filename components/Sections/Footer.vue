@@ -70,7 +70,7 @@
               <p>+971 58 555 7797</p>
               <em class="lg:hidden">The Best Of Everything In One App</em>
             </div>
-            <div class="flex w-full h-1/3 justify-center gap-2 items-center">
+            <div class="flex w-full h-1/3 justify-center p-0 gap-2 items-center">
                 <img src="/images/Instagram-white.png" alt="">
                 <img src="/images/Linkedin-white.png" alt="">
             </div>
