@@ -5,7 +5,7 @@
         <Flex :level="2" class="lg:pt-8 gap-4">
             <div class="h-1/3 w-full flex flex-col items-center justify-center gap-4">
 
-                <img src="/images/alpha-logo.png" class="lg:w-24 w-12" alt="" />
+                <img src="/images/Alpha-logo.png" class="lg:w-24 w-12" alt="" />
                 <img src="/images/Logo-name-footer.png" alt="" class="w-48" />
             </div>
           <em class="text-xl hidden lg:block">The Best Of Everything In One App</em>
