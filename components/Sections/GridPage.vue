@@ -40,7 +40,7 @@
         </div>
         <teleport to="body">
           <div
-            v-if="modalDisplay == data.image"
+            v-if="modalDisplay ==data.image"
             class="fixed z-[1006] pt-6 bg-black/50 flex items-center justify-center h-screen w-screen"
           >
             <swiper
@@ -84,6 +84,7 @@
             </swiper>
           </div>
         </teleport>
+        <!-- -->
       </div>
     </Grid>
     <div class="h-full lg:hidden w-full">

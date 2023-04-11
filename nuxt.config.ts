@@ -2,7 +2,6 @@
 // import {defineNuxtModule} from 'nuxt'
 
 export default defineNuxtConfig({
-  ssr: false,
   css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {
@@ -11,5 +10,5 @@ export default defineNuxtConfig({
     },
   },
   modules: ["nuxt-swiper"],
-  plugins: ["~/plugins/Carousel.ts"],
+  // plugins: ["~/plugins/Carousel.ts"],
 });
