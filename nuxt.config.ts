@@ -2,16 +2,14 @@
 // import {defineNuxtModule} from 'nuxt'
 
 export default defineNuxtConfig({
-    css: ["~/assets/css/main.css"],
-    postcss: {
-		plugins: {
-			tailwindcss: {},
-			autoprefixer: {},
-
-		},
-	},
-    modules: ['nuxt-swiper'],
-    plugins: [
-        '~/plugins/Carousel.ts',
-      ],
-})
+  ssr: false,
+  css: ["~/assets/css/main.css"],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+  modules: ["nuxt-swiper"],
+  plugins: ["~/plugins/Carousel.ts"],
+});
