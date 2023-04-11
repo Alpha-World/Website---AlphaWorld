@@ -25,7 +25,7 @@
             >
             <a target="_blank" href="https://chat.whatsapp.com/Iz4YdJb4wko9s6lhM81858">
 
-              <img src="/images/Whatsapp.png" alt="" />
+              <img src="/images/whatsapp.png" alt="" />
             </a>
             </span>
           </div>
