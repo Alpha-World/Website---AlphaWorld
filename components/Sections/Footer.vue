@@ -18,7 +18,7 @@
               class="bg-black hidden lg:flex rounded-md lg:items-center px-4 w-1/3 items-start lg:w-1/5"
             >
               <div class="basis-1/3 h-full">
-                <img src="/images/Apple-Logo.png" class="" alt="" />
+                <img src="/images/Apple-logo.png" class="" alt="" />
               </div>
               <div class="basis-2/3 text-right">
                 <p class="lg:text-sm text-xs">Available on the</p>
