@@ -41,7 +41,7 @@
               class="flex pl-2 bg-black h-[3rem] lg:hidden rounded-md items-center px-2"
             >
               <div class="basis-1/3 h-full">
-                <img src="/images/Apple-Logo.png" class="w-full py-2" alt="" />
+                <img src="/images/Apple-logo.png" class="w-full py-2" alt="" />
               </div>
               <div class="basis-2/3">
                 <p class="lg:text-sm text-[6px]">Available on the</p>

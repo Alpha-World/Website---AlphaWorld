@@ -7,21 +7,21 @@
           <div class="w-full h-1/2 lg:grid hidden  grid-cols-3">
             <div class="w-full h-full relative">
               <img
-                src="/images/info-card-3.png"
+                src="/images/Info-card-3.png"
                 class="absolute w-[60%] top-1/4 left-12"
                 alt=""
               />
             </div>
             <div class="w-full h-full relative">
               <img
-                src="/images/info-card-2.png"
+                src="/images/Info-card-2.png"
                 class="absolute -bottom-1/2 left-[20%]"
                 alt=""
               />
             </div>
             <div class="w-full h-full relative">
               <img
-                src="/images/info-card-1.png"
+                src="/images/Info-card-1.png"
                 class="absolute top-1/5 right-2"
                 alt=""
               />
@@ -33,28 +33,28 @@
             
             <div class="w-full h-full relative">
               <img
-                src="/images/info-card-2.png"
+                src="/images/Info-card-2.png"
                 class="absolute w-[50%] top-1/2 left-[30%]"
                 alt=""
               />
             </div>
             <div class="w-full col-start-2 row-start-1 h-full  relative">
             <img
-              src="/images/info-card-4.png"
+              src="/images/Info-card-4.png"
               class="absolute top-[45%] left-8 z-[1004]"
               alt=""
             />
           </div>
             <div class="w-full h-full col-start-2 row-start-2 relative">
               <img
-                src="/images/info-card-1.png"
+                src="/images/Info-card-1.png"
                 class="absolute top-10 right-2"
                 alt=""
               />
             </div>
             <div class="w-full col-start-1 row-start-2 h-full  relative">
             <img
-              src="/images/info-card-3.png"
+              src="/images/Info-card-3.png"
               class="absolute -bottom-[54%] left-2 z-[1004]"
               alt=""
             />
@@ -62,12 +62,12 @@
             
         </div>
         <img
-          src="/images/lady.png"
+          src="/images/Lady.png"
           class="absolute w-[20rem] block lg:hidden  translate-x-1/2 translate-y-1/2  right-1/2 bottom-4"
           alt=""
         />
           <img
-            src="/images/lady.png"
+            src="/images/Lady.png"
             class="absolute w-[45%] hidden lg:block right-0 -bottom-1/2"
             alt=""
           />

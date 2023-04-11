@@ -16,7 +16,7 @@
             >
             <a target="_blank" href="https://t.me/AlphaWorldApp">
 
-              <img src="/images/telegram.png" alt="" />
+              <img src="/images/Telegram.png" alt="" />
             </a>
             </span>
 
@@ -25,7 +25,7 @@
             >
             <a target="_blank" href="https://chat.whatsapp.com/Iz4YdJb4wko9s6lhM81858">
 
-              <img src="/images/whatsapp.png" alt="" />
+              <img src="/images/Whatsapp.png" alt="" />
             </a>
             </span>
           </div>
