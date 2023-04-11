@@ -7,7 +7,7 @@
           <div class="w-full h-1/2 lg:grid hidden  grid-cols-3">
             <div class="w-full h-full relative">
               <img
-                src="/images/info-card-three.png"
+                src="/images/card-three.png"
                 class="absolute w-[60%] top-1/4 left-12"
                 alt=""
               />
@@ -28,7 +28,7 @@
             </div>
         </div>
 
-        
+
         <!-- mobile cards -->
           <div class="w-full h-3/4 lg:hidden grid  grid-cols-2 grid-rows-2">
             
@@ -55,7 +55,7 @@
             </div>
             <div class="w-full col-start-1 row-start-2 h-full  relative">
             <img
-              src="/images/info-card-three.png"
+              src="/images/card-three.png"
               class="absolute -bottom-[54%] left-2 z-[1004]"
               alt=""
             />
