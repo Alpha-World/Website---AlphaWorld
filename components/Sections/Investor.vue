@@ -8,9 +8,14 @@
           <h2 class="mb-2 text-3xl font-bold text-black">
             Are you an investor
           </h2>
-          <h3 class="text-[#1e1e1e]/90 text-xl">
+          <h3 class="text-[#1e1e1e]/90 text-center lg:text-left text-xl">
             Are you an investor interested in The Super App For Everything?
-            Contact us now
+            Contact us now <span>
+              <a target="_blank" href="https://wa.link/hnx1mz">
+
+                <img class="inline ml-1 mb-1" src="/images/Whatsapp-black.png" alt="">
+              </a>
+            </span>
           </h3>
           <div class="lg:h-1/2 h-4/5 w-full">
             <Flex :level="1" class="lg:w-[80%] hidden lg:flex mx-auto py-4">
@@ -93,10 +98,22 @@
           <p class="text-lg">Or contact us on all our social media Platforms</p>
           <div class="flex w-1/4 justify-between mx-auto">
             <img src="/images/Facebook.png" alt="" />
-            <img src="/images/Whatsapp-black.png" alt="" />
-            <img src="/images/Instagram-black.png" alt="" />
-            <img src="/images/Twitter.png" alt="" />
-            <img src="/images/LinkedIn.png" alt="" />
+            <a target="_blank" href="https://chat.whatsapp.com/Iz4YdJb4wko9s6lhM81858">
+
+              <img src="/images/Whatsapp-black.png" alt="" />
+            </a>
+            <a target="_blank" href="">
+
+              <img src="/images/Instagram-black.png" alt="" />
+            </a>
+            <a href="">
+
+              <img src="/images/Twitter.png" alt="" />
+            </a>
+            <a href="">
+
+              <img src="/images/LinkedIn.png" alt="" />
+            </a>
           </div>
         </div>
       </div>

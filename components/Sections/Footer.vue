@@ -1,21 +1,24 @@
 <template>
-  <div class="bg-[#0027A6] text-white h-[39rem] lg:h-[47rem]">
+  <div class="bg-[#0027A6] text-white h-[34rem] lg:h-[38rem]">
     <Flex :level="1">
-      <div class="w-3/4 mx-auto h-3/4 py-4">
+      <div class="w-3/4 mx-auto h-full pt-4">
         <Flex :level="2" class="lg:pt-8 gap-4">
-          <img src="/images/alpha-logo.png" class="lg:w-24 w-12" alt="" />
-          <img src="/images/Logo-name-footer.png" alt="" class="w-48" />
-          <em class="text-xl hidden">The Best Of Everything In One App</em>
+            <div class="h-1/3 w-full flex flex-col items-center justify-center gap-4">
+
+                <img src="/images/alpha-logo.png" class="lg:w-24 w-12" alt="" />
+                <img src="/images/Logo-name-footer.png" alt="" class="w-48" />
+            </div>
+          <em class="text-xl hidden lg:block">The Best Of Everything In One App</em>
           <div
-            class="lg:h-1/3 h-[4rem] w-[21rem] shadow-md justify-center lg:gap-4 flex items-center flex-row lg:w-full px-2 lg:px-0"
+            class="lg:h-1/3 h-[4rem] w-[21rem] shadow-md lg:shadow-none justify-center lg:gap-4 flex items-center flex-row lg:w-full px-2 lg:px-0"
           >
-            <p class="w-1/3 whitespace-nowrap text-sm">Coming soon...</p>
+            <p class="w-1/3 whitespace-nowrap lg:text-xl text-sm  justify-self-end">Coming soon...</p>
             <Button
               :level="3"
               class="bg-black hidden lg:flex rounded-md lg:items-center px-4 w-1/3 items-start lg:w-1/5"
             >
               <div class="basis-1/3 h-full">
-                <img src="/images/Apple-Logo.png" class="w-1/3" alt="" />
+                <img src="/images/Apple-Logo.png" class="" alt="" />
               </div>
               <div class="basis-2/3 text-right">
                 <p class="lg:text-sm text-xs">Available on the</p>
@@ -58,14 +61,14 @@
               </div>
             </button>
           </div>
-          <div class="flex mt-[1.5rem] flex-col  lg:flex-col-reverse items-center h-3/5 w-full">
+          <div class="flex lg:mt-[3.5rem] flex-col  lg:flex-col-reverse items-center   h-2/5 w-full">
             <div
               class="flex  text-base gap-4 lg:flex-row font-light flex-col items-center h-2/3"
             >
               <p>Dubai UAE</p>
               <p>AlphaWorld@AlphaTech7.com</p>
               <p>+971 58 555 7797</p>
-              <em class="">The Best Of Everything In One App</em>
+              <em class="lg:hidden">The Best Of Everything In One App</em>
             </div>
             <div class="flex w-full h-1/3 justify-center gap-2 items-center">
                 <img src="/images/Instagram-white.png" alt="">

@@ -14,13 +14,19 @@
             <span
               class="w-10 h-10 border flex items-center justify-center rounded-full"
             >
+            <a target="_blank" href="https://t.me/AlphaWorldApp">
+
               <img src="/images/telegram.png" alt="" />
+            </a>
             </span>
 
             <span
               class="w-10 h-10 border flex items-center justify-center rounded-full"
             >
+            <a target="_blank" href="https://chat.whatsapp.com/Iz4YdJb4wko9s6lhM81858">
+
               <img src="/images/whatsapp.png" alt="" />
+            </a>
             </span>
           </div>
         </Flex>

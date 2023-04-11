@@ -8,7 +8,7 @@
             <div class="w-full h-full relative">
               <img
                 src="/images/info-card-3.png"
-                class="absolute top-1/4 left-12"
+                class="absolute w-[60%] top-1/4 left-12"
                 alt=""
               />
             </div>
@@ -75,13 +75,13 @@
       </div>
     </Flex>
     <div
-      class="absolute w-[80%] lg:w-1/3 h-[49%] overflow-hidden -top-[13%] py-4 z-[1001] shadow-[#000000]/25 drop-shadow-2xl -translate-x-1/2 left-1/2 bg-white"
+      class="absolute w-[80%] lg:w-1/3 overflow-scroll h-[48%] lg:overflow-hidden -top-[13%] py-4 z-[1001] shadow-[#000000]/25 drop-shadow-2xl -translate-x-1/2 left-1/2 bg-white"
     >
-      <Flex :level="2" class="items-start px-8">
-        <h2 class="basis-1/4 text-xl lg:text-4xl   font-bold text-[#0027A6]">
+      <Flex :level="2" class="items-start gap-4 px-8 pb-4">
+        <h2 class="basis-1/4 text-xl lg:text-3xl    font-bold text-[#0027A6]">
           The Only App You Need?
         </h2>
-        <p class="-tracking-[0.5px] hidden lg:block text-[#7B7B7B]">
+        <p class="text-sm hidden lg:block text-[#7B7B7B]">
           With it being impossible to find one secure platform that solves all
           our digital needs without tracking us or abusing our data for monetary
           gains, AlphaTech7 a fast growing Dubai based Tech & Marketing Company
@@ -89,7 +89,7 @@
           users have control to share and earn or erase their data from its
           cloud database
           <br />
-          <br />
+          <br class="hidden lg:block" />
           Now you have a transparent lifelong partner in the digital space
         </p>
         <p class="text-[16px] lg:hidden h-4/5  overflow-hidden text-[#7B7B7B] leading-[32px]">
