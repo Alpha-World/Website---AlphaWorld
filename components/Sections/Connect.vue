@@ -104,8 +104,7 @@
                 </li>
 
                 <li class="">
-                   Crypto Wallet which gives higher interest rates on
-                  savings,
+                  Digital Crypto Wallet 
                 </li>
                 <li class="">
                   Multiple shared economy business models, and much more...
