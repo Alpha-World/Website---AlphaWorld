@@ -99,12 +99,12 @@
                   from the apps database,
                 </li>
                 <li class="">
-                  Digital Wallet which gives users higher interest rates on
+                  Digital Cash Wallet which gives users higher interest rates on
                   savings,
                 </li>
 
                 <li class="">
-                  Digital Crypto Wallet which gives higher interest rates on
+                   Crypto Wallet which gives higher interest rates on
                   savings,
                 </li>
                 <li class="">
