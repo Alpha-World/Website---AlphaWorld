@@ -76,13 +76,13 @@
       </div>
     </Flex>
     <div
-      class="absolute w-[80%] lg:w-1/3 overflow-scroll h-[48%] lg:overflow-hidden -top-[13%] py-4 z-[1001] shadow-[#000000]/25 drop-shadow-2xl -translate-x-1/2 left-1/2 bg-white"
+      class="absolute w-[80%] lg:w-1/3 overflow-scroll lg:h-[48%] lg:overflow-hidden -top-[20%] lg:-top-[13%] py-4 z-[1001] shadow-[#000000]/25 drop-shadow-2xl -translate-x-1/2 left-1/2 bg-white"
     >
       <Flex :level="2" class="items-start gap-4 px-8 pb-4">
         <h2 class="basis-1/4 text-xl lg:text-3xl    font-bold text-[#0027A6]">
           The Only App You Need?
         </h2>
-        <p class="text-sm hidden lg:block text-[#7B7B7B]">
+        <p class=" hidden lg:text-sm lg:block text-[#7B7B7B]">
           With it being impossible to find one secure platform that solves all
           our digital needs without tracking us or abusing our data for monetary
           gains, AlphaTech7 a fast growing Dubai based Tech & Marketing Company
@@ -90,11 +90,14 @@
           users have control to share and earn or erase their data from its
           cloud database
           <br />
-          <br class="hidden lg:block" />
+          <br class=" lg:block" />
           Now you have a transparent lifelong partner in the digital space
         </p>
-        <p class="text-[16px] lg:hidden h-4/5  overflow-hidden text-[#7B7B7B] leading-[32px]">
+        <p class="text-[14px] tracking-tighter leading-tight lg:hidden h-4/5  overflow-hidden text-[#7B7B7B] ">
             {{infoBox}}
+            <br>
+          Now you have a transparent lifelong partner in the digital space
+
         </p>
       </Flex>
     </div>

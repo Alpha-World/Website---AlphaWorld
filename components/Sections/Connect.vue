@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-white min-h-[50rem] mt-[10rem] lg:min-h-[54rem]">
+  <div class="bg-white min-h-[44rem] lg:mt-[10rem] mt-[12rem] lg:min-h-[54rem]">
     <div class="lg:w-4/5 mx-auto text-white h-full">
       <Flex :level="2" class="justify-center">
         <div
-          class="bg-blue-800 h-[8rem] lg:h-[12rem] mb-20 rounded-xl w-[85%] lg:w-[60%]"
+          class="bg-[#0027A6] h-[8rem] lg:h-[12rem] mb-8 lg:mb-20 rounded-xl w-[85%] lg:w-[60%]"
         >
-          <Flex class="justify-center lg:gap-4" :level="2">
+          <Flex class="justify-center  lg:gap-4" :level="2">
             <h2 class="lg:text-xl lg:w-3/4 w-full text-sm text-center">
               Click
               <span class="text-blue-400 lg:hidden">
@@ -19,8 +19,8 @@
               to Join AlphaWorld’s Community & get an exclusive AlphaWorld
               T-Shirt for Free
             </h2>
-            <div class="lg:w-[45%] w-[80%] mx-auto h-2/5">
-              <Flex class="justify-between lg:text-base text-sm" :level="1">
+            <div class="lg:w-[45%] w-[70%] mx-auto h-2/5">
+              <Flex class="lg:justify-between gap-4 lg:text-base text-sm" :level="1">
                 <a target="_blank" href="https://t.me/AlphaWorldApp" class="">
                   <Button class="gap-2" :level="1">
                     Telegram
@@ -46,10 +46,10 @@
             </div>
           </Flex>
         </div>
-        <div class="lg:h-[12rem] h-[40%] lg:w-full w-[90%]">
+        <div class="lg:h-[12rem] h-[40%]  lg:w-full w-[90%]">
           <Flex
             :level="2"
-            class="pt-2 lg:w-full gap-8 text-center text-[#1E1E1E]"
+            class="pt-0 lg:w-full gap-4 lg:gap-8 text-center text-[#1E1E1E]"
           >
             <h4
               class="lg:text-4xl capitalize text-xl lg:w-full lg:leading-[122%] font-bold"

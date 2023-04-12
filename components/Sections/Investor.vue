@@ -10,10 +10,10 @@
           </h2>
           <h3 class="text-[#1e1e1e]/90 text-center lg:text-left text-xl">
             Are you an investor interested in The Super App For Everything?
-            Contact us now <span>
+            Contact us now <br class="lg:hidden"> <span>
               <a target="_blank" href="https://wa.link/hnx1mz">
 
-                <img class="inline ml-1 mb-1" src="/images/Whatsapp-black.png" alt="">
+                <img class="inline ml-1 mb-1 w-[24px]" src="/images/Whatsapp-black.png" alt="">
               </a>
             </span>
           </h3>
@@ -35,9 +35,9 @@
                 <div class="flex flex-col h-1/3">
                   <div class="flex flex-col items-center h-1/3">
                     <h3 class="text-xl font-semibold">Email Address</h3>
-                    <p class="text-gray-600 text-sm">
+                    <a href="mailto:AlphaWorld@AlphaTech7.com" class="text-gray-600 text-sm">
                       AlphaWorld@AlphaTech7.com
-                    </p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -48,7 +48,7 @@
 
                 <div class="flex flex-col h-1/3">
                   <h3 class="text-xl font-semibold">Phone Number</h3>
-                  <p class="text-gray-600 text-sm">+971 58 555 7797</p>
+                  <a href="tel:+971585557797" class="text-gray-600 text-sm">+971 58 555 7797</a>
                 </div>
               </div>
             </Flex>

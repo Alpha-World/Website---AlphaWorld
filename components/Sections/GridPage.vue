@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blue-50/60 lg:h-[108rem] min-h-[70vh] w-full">
+  <div class="bg-blue-50/60 lg:h-[108rem] min-h-[60vh] w-full">
     <div class="h-[10%]">
       <Flex :level="1">
         <h2 class="text-2xl lg:text-4xl capitalize py-4 font-bold">
@@ -87,7 +87,7 @@
         <!-- -->
       </div>
     </Grid>
-    <div class="h-full lg:hidden w-full">
+    <div class="h-[48rem] border lg:hidden w-full">
       <swiper
         :slides-per-view="1"
         :space-between="50"
@@ -106,8 +106,7 @@
             >
               <img
                 :src="data.image"
-                :class="index == 2 ? 'h-[32rem]' : ''"
-                class="w-[260px]"
+                class=" "
                 alt=""
               />
             </div>

@@ -23,7 +23,7 @@
         </div>
     </Flex>
     <div class="w-[85%] mx-auto  lg:hidden block relative  h-2/3">
-        <img class="absolute z-[100] left-1/2 -translate-x-1/2 bottom-24 w-full   rounded-md shadow-sm after:content-none after:w-full after:absolute after:border w" src="/images/Heading-main.png" alt="">
+        <img class="absolute z-[100] left-1/2 -translate-x-1/2 bottom-[3rem] w-full   rounded-md shadow-sm after:content-none after:w-full after:absolute after:border w" src="/images/Heading-main.png" alt="">
     </div>
   </div>
 </template>
