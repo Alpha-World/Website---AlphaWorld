@@ -87,7 +87,7 @@
         <!-- -->
       </div>
     </Grid>
-    <div class="h-[48rem] border lg:hidden w-full">
+    <div class="min-h-[48rem] border lg:hidden w-full">
       <swiper
         :slides-per-view="1"
         :space-between="50"
@@ -102,7 +102,7 @@
         >
           <Flex :level="2" class="w-[80%] gap-4">
             <div
-              class="min-h-3/5 h-3/5 bg-indigo-400/60 flex justify-center w-[80%] py-2 rounded-2xl"
+              class="min-h-3/5  bg-indigo-400/60 flex justify-center w-[80%] py-2 rounded-2xl"
             >
               <img
                 :src="data.image"

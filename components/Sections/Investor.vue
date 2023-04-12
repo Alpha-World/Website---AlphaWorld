@@ -11,9 +11,13 @@
           <h3 class="text-[#1e1e1e]/90 text-center lg:text-left text-xl">
             Are you an investor interested in The Super App For Everything?
             Contact us now <br class="lg:hidden"> <span>
-              <a target="_blank" href="https://wa.link/hnx1mz">
+              <a target="" href="https://wa.link/hnx1mz">
 
-                <img class="inline ml-1 mb-1 w-[24px]" src="/images/Whatsapp-black.png" alt="">
+                <img class=" ml-1 mb-1 w-[24px] hidden lg:inline" src="/images/Whatsapp-black.png" alt="">
+              </a>
+              <a target="" href="https://wa.link/hnx1mz">
+
+                <img class=" ml-1 mb-1 w-[24px] inline lg:hidden" src="/images/Whatsapp-black.png" alt="">
               </a>
             </span>
           </h3>
@@ -35,7 +39,7 @@
                 <div class="flex flex-col h-1/3">
                   <div class="flex flex-col items-center h-1/3">
                     <h3 class="text-xl font-semibold">Email Address</h3>
-                    <a href="mailto:AlphaWorld@AlphaTech7.com" class="text-gray-600 text-sm">
+                    <a href="mailto:pt.timone@gmail.com" class="text-gray-600 text-sm">
                       AlphaWorld@AlphaTech7.com
                     </a>
                   </div>
@@ -73,9 +77,13 @@
                 <div class="flex flex-col h-1/3">
                   <div class="flex flex-col items-start h-1/3">
                     <h3 class="text-xl font-semibold">Email Address</h3>
-                    <p class="text-gray-600 text-sm">
+                    <a href="mailto:AlphaWorld@AlphaTech7.com" class="text-gray-600 text-sm">
                       AlphaWorld@AlphaTech7.com
-                    </p>
+                    </a>
+                    <!-- <NuxtLink to="https://wa.link/hnx1mz">
+                      AlphaWorld@AlphaTech7.com
+
+                    </NuxtLink> -->
                   </div>
                 </div>
               </div>
@@ -86,7 +94,7 @@
 
                 <div class="flex flex-col items-start h-1/3">
                   <h3 class="text-xl font-semibold">Phone Number</h3>
-                  <p class="text-gray-600 text-sm">+971 58 555 7797</p>
+                  <a href="tel:+971585557797" class="text-gray-600 text-sm">+971 58 555 7797</a>
                 </div>
               </div>
             </div>
