@@ -5,13 +5,13 @@
     <Flex :level="2" class="lg:mt-24 mt-4">
       <div class="w-[90%] mx-auto lg:w-3/4 lg:h-1/2 h-full">
         <Flex :level="2" class="py-4 gap-4 lg:items-center">
-          <h2 class="mb-2 text-3xl font-bold text-black">
+          <h2 class="mb-2 text-2xl lg:text-3xl font-bold text-black">
             Are you an investor
           </h2>
-          <h3 class="text-[#1e1e1e]/90 text-center lg:text-left text-xl">
+          <h3 class="text-[#1e1e1e]/90 text-center lg:text-left lg:text-xl">
             Are you an investor interested in The Super App For Everything?
-            Contact us now <br class="lg:hidden"> <span>
-              <a  href="mailto:example@example.com" target="_top">
+            Contact us now<span>
+              <a target="" href="https://wa.link/hnx1mz">
 
                 <img class=" ml-1 mb-1 w-[24px] hidden lg:inline" src="/images/Whatsapp-black.png" alt="">
               </a>
@@ -134,7 +134,7 @@
     </Flex>
     <img
       src="/images/Alpha-bg.png"
-      class="absolute w-[46.3rem] -left-6 -bottom-1/3 lg:-bottom-0 z-[1000]"
+      class="absolute w-[46.3rem] -left-2 -bottom-1/4 lg:-bottom-0 z-[1000]"
       alt=""
     />
   </div>
