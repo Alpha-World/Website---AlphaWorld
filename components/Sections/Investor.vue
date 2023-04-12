@@ -11,7 +11,7 @@
           <h3 class="text-[#1e1e1e]/90 text-center lg:text-left text-xl">
             Are you an investor interested in The Super App For Everything?
             Contact us now <br class="lg:hidden"> <span>
-              <a target="" href="https://wa.link/hnx1mz">
+              <a  href="mailto:example@example.com" target="_top">
 
                 <img class=" ml-1 mb-1 w-[24px] hidden lg:inline" src="/images/Whatsapp-black.png" alt="">
               </a>
@@ -38,8 +38,8 @@
                 <img src="/images/Message.png" class="w-1/3" alt="" />
                 <div class="flex flex-col h-1/3">
                   <div class="flex flex-col items-center h-1/3">
-                    <h3 class="text-xl font-semibold">Email Address</h3>
-                    <a href="mailto:pt.timone@gmail.com" class="text-gray-600 text-sm">
+                    <h3 class="text-xl relative z-[1002] font-semibold">Email Address</h3>
+                    <a href="mailto:timiprecious18@gmail.com" class="text-gray-600 text-sm">
                       AlphaWorld@AlphaTech7.com
                     </a>
                   </div>
