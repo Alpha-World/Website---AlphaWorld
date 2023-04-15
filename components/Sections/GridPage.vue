@@ -1,28 +1,29 @@
 <template>
-  <div class="bg-blue-50/60 lg:h-[108rem] min-h-[60vh] w-full">
-    <div class="h-[10%]">
+  <div class="bg-blue-50/60 py-[5.3rem]  w-full">
+    <div class="">
       <Flex :level="1">
         <h2 class="text-2xl lg:text-4xl capitalize py-4 font-bold">
           Some sections of Alpha World
         </h2>
       </Flex>
     </div>
-    <Grid class="max-h-[87%] hidden lg:grid">
-      <div class="w-full h-full" v-for="(data, index) in gridDataMobile">
-        <div class="w-full h-full items justify-start items-start">
+    <Grid class=" hidden lg:grid gap-8">
+      <div class="w-full " v-for="(data, index) in gridDataMobile">
+        <div class=" h-full flex flex-col items justify-start items-start">
           <Flex
             :level="1"
-            class="max-h-[60%] relative max-w-[85%] items-start justify-start rounded-xl bg-indigo-400/60"
+            :class="data==gridDataMobile[2]?'basis-3/4':''"
+            class=" basis-2/3 relative px-[6rem] py-[2rem] items-start justify-start rounded-xl bg-indigo-400/60"
           >
             <img
-              class="absolute items-start justify-start bottom-0 h-[95%]"
+              class=" items-start justify-start bottom-0 "
               :src="data.image"
               alt=""
             />
           </Flex>
           <div
             :level="2"
-            class="h-1/4 flex gap-4 flex-col items-start justify-start pb-2 pt-4"
+            class=" flex gap-4 flex-col items-start justify-start pb-2 pt-4"
           >
             <h2 class="text-left text-2xl font-bold">
               {{ data.header }}
@@ -41,7 +42,7 @@
         <teleport to="body">
           <div
             v-if="modalDisplay ==data.image"
-            class="fixed z-[1006] pt-6 bg-black/50 flex items-center justify-center h-screen w-screen"
+            class="fixed z-[1006] modal pt-6 bg-black/50 flex items-center justify-center h-screen w-screen"
           >
             <swiper
               :slides-per-view="1"
@@ -49,7 +50,7 @@
               :scrollbar="{ draggable: true }"
               :navigation="true"
               :modules="nav"
-              class="w-full lg:hidden mx-auto display flex items-center h-[80%] justify-center"
+              class="w-full lg:hidden mx-auto display flex items-center  justify-center"
             >
               <swiper-slide
                 v-for="content in gridDataMobile"
@@ -63,9 +64,9 @@
                 </p>
                 <Flex :level="2" class="w-[80%] gap-4">
                   <div
-                    class="h-full flex flex-col items-center justify-center w-[80%] bg-white pt-6 rounded-2xl"
+                    class=" h-[60vh] py-4 overflow-scroll flex flex-col items-center justify-center w-[80%] bg-white pt-6 rounded-2xl"
                   >
-                    <img :src="content.image" class="w-[12rem]" alt="" />
+                    <img :src="content.image" class="max-w-[11rem]" alt="" />
                     <div class="w-[80%]">
                       <Flex :level="2" class="mx-auto my-4">
                         <h2 class="text-base font-semibold">
@@ -190,7 +191,7 @@ const gridDataMobile = [
   },
   {
     text: "A business hub and marketplace, where you can find everything you need. Our platform allows users to list themselves as vendors and connect with potential customers to sell their products or deliver services through our app. We also offer the opportunity for talents to list themselves and find recruiters, professionals to connect with HRs and companies, and job seekers to find job opportunities that are listed on our app. Additionally, you can book celebrities and access a wide range of products and services. Join our community today and find everything you need, including celebrities, professionals, service providers, talents, products, and much more.",
-    image: "/images/Alpha-business.png",
+    image: "/images/Alpha-business-2.png",
     header: "Alpha Business Hub",
   },
   {

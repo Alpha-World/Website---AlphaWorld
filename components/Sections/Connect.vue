@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-white min-h-[44rem] lg:mt-[10rem] mt-[12rem] lg:min-h-[54rem]">
-    <div class="lg:w-4/5 mx-auto text-white h-full">
+  <div class="bg-white lg:pb-[8rem]  lg:pt-[20rem] lg:pb mt-[12rem] ">
+    <div class="lg:w-4/5 mx-auto text-white">
       <Flex :level="2" class="justify-center">
         <div
-          class="bg-[#0027A6] h-[8rem] lg:h-[12rem] mb-8 lg:mb-20 rounded-xl w-[85%] lg:w-[60%]"
+          class="bg-[#0027A6]  mb-8 lg:mb-20 rounded-xl w-[85%] lg:w-[60%]"
         >
           <Flex class="justify-center lg:gap-4" :level="2">
-            <h2 class="lg:text-xl lg:w-3/4 w-full text-sm text-center">
+            <h2 class="lg:text-xl py-[1.2rem] lg:w-3/4 w-full text-sm text-center">
               Click
               <span class="text-blue-400 lg:hidden">
                 <a
@@ -19,7 +19,7 @@
               to Join AlphaWorld’s Community & get an exclusive AlphaWorld
               T-Shirt for Free
             </h2>
-            <div class="lg:w-[45%] w-[70%] mx-auto h-2/5">
+            <div class="lg:w-[45%] w-[70%] mb-[1.4rem] mx-auto h-2/5">
               <Flex
                 class="lg:justify-between gap-4 lg:text-base text-sm"
                 :level="1"
@@ -49,7 +49,7 @@
             </div>
           </Flex>
         </div>
-        <div class="lg:h-[12rem] h-[40%] lg:w-full w-[90%]">
+        <div class=" lg:w-full w-[90%]">
           <Flex
             :level="2"
             class="pt-0 lg:w-full gap-4 lg:gap-8 text-center text-[#1E1E1E]"
@@ -72,7 +72,7 @@
                 class="hidden lg:block"
               />
             </div>
-            <div class="w-[90%] text-left text-base mx-auto lg:hidden block">
+            <div class="w-[90%] pb-[2rem] text-left text-base mx-auto lg:hidden block">
               <h5 class="text-left">
                 AlphaWorld is a secure all-in-one mobile app which offers
                 multiple features ranging from:

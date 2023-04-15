@@ -2,11 +2,13 @@
   <div
     class="lg:h-[61rem] h-[28rem] bg-[#F0F3F9] overflow-hidden w-full relative"
   >
-    <Flex :level="2" class="lg:mt-24 mt-4">
+
+    <Flex :level="2" class="lg:mt-24 mt-4 relative z-[1001]">
       <div class="w-[90%] mx-auto lg:w-3/4 lg:h-1/2 h-full">
         <Flex :level="2" class="py-4 gap-4 lg:items-center">
           <h2 class="mb-2 text-2xl lg:text-3xl font-bold text-black">
             Are you an investor
+
           </h2>
           <h3 class="text-[#1e1e1e]/90 text-center lg:text-left lg:text-xl">
             Are you an investor interested in The Super App For Everything?
@@ -39,20 +41,21 @@
                 <div class="flex flex-col h-1/3">
                   <div class="flex flex-col items-center h-1/3">
                     <h3 class="text-xl relative z-[1002] font-semibold">Email Address</h3>
-                    <a href="mailto:timiprecious18@gmail.com" class="text-gray-600 text-sm">
+                    <a target="_blank" href="mailto:AlphaWorld@AlphaTech7.com" class="text-gray-600 text-sm">
                       AlphaWorld@AlphaTech7.com
                     </a>
                   </div>
                 </div>
               </div>
               <div
-                class="basis-1/3 gap-6 flex flex-col justify-center items-center h-full"
+              class="basis-1/3 gap-6 flex flex-col justify-center items-center h-full"
               >
+              
                 <img src="/images/Phone.png" class="w-1/3" alt="" />
 
                 <div class="flex flex-col h-1/3">
                   <h3 class="text-xl font-semibold">Phone Number</h3>
-                  <a href="tel:+971585557797" class="text-gray-600 text-sm">+971 58 555 7797</a>
+                  <a href="tel:+971585557797" return:false class="text-gray-600 text-sm">+971 58 555 7797</a>
                 </div>
               </div>
             </Flex>
@@ -77,13 +80,9 @@
                 <div class="flex flex-col h-1/3">
                   <div class="flex flex-col items-start h-1/3">
                     <h3 class="text-xl font-semibold">Email Address</h3>
-                    <a href="mailto:AlphaWorld@AlphaTech7.com" class="text-gray-600 text-sm">
+                    <a href="mailto:AlphaWorld@AlphaTech7.com" target="_blank" class="text-gray-600 text-sm">
                       AlphaWorld@AlphaTech7.com
                     </a>
-                    <!-- <NuxtLink to="https://wa.link/hnx1mz">
-                      AlphaWorld@AlphaTech7.com
-
-                    </NuxtLink> -->
                   </div>
                 </div>
               </div>
@@ -94,12 +93,15 @@
 
                 <div class="flex flex-col items-start h-1/3">
                   <h3 class="text-xl font-semibold">Phone Number</h3>
-                  <a href="tel:+971585557797" class="text-gray-600 text-sm">+971 58 555 7797</a>
+                  <a href="tel:+971585557797"  class="text-gray-600 text-sm">+971 58 555 7797</a>
                 </div>
               </div>
             </div>
+
+          
           </div>
         </Flex>
+
         <div
           class="mt-12 w-full hidden lg:flex text-[#1E1E1EE5]/90 mx-auto gap-6 h-full flex-col items-center"
         >
