@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white lg:pb-[8rem]  lg:pt-[20rem] lg:pb mt-[12rem] ">
+  <div class="bg-white lg:pb-[8rem] pt-[2.5rem]  lg:pt-[20rem] lg:pb mt-[12rem] ">
     <div class="lg:w-4/5 mx-auto text-white">
       <Flex :level="2" class="justify-center">
         <div

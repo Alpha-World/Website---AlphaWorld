@@ -4,13 +4,13 @@
         <div class="w-full  ">
 
             <Flex class="lg:gap-[2rem] gap-[1.5rem] justify-center"  :level="2">
-              <h2 class="text-xl mb-[3rem] lg:text-6xl mt-[2rem] lg:mt-[2rem] font-semibold">
+              <h2 class="text-xl mb-[0rem] lg:mb-[3rem] lg:text-6xl  lg:mt-[2rem] font-semibold">
                 The All In-One App
               </h2>
               <div class="lg:w-3/4 text-sm text-center lg:text mb-[4.8rem]">
                 <Flex :level="2" class="gap-2">
                   <h4 class="font-bold lg:text-[1.5rem]">Betrayed By Your Own Phone?</h4>
-                  <p class=" font-normal text-sm text-[#676767]">
+                  <p class=" max-w-[80%] font-normal text-sm text-[#676767]">
                     Apps on your device tracks & spies on you then sells your data without paying you, Except <span class="text-stone-900">AlphaWorld</span> 
                   </p>
                 </Flex>
