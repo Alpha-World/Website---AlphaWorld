@@ -1,12 +1,14 @@
 <template>
   <div class="bg-blue-50/60 py-[5.3rem]  w-full">
     <div class="">
+      <!-- Header -->
       <Flex :level="1">
         <h2 class="text-2xl lg:text-4xl capitalize py-4 font-bold">
           Some sections of Alpha World
         </h2>
       </Flex>
     </div>
+    <!-- Desktop Grid -->
     <Grid class=" hidden lg:grid gap-8">
       <div class="w-full " v-for="(data, index) in gridDataMobile">
         <div class=" h-full flex flex-col items justify-start items-start">
@@ -39,6 +41,9 @@
             </p>
           </div>
         </div>
+
+    <!-- Desktop Modals slider -->
+        
         <teleport to="body">
           <div
             v-if="modalDisplay ==data.image"
@@ -88,6 +93,7 @@
         <!-- -->
       </div>
     </Grid>
+    <!-- Mobile Slider -->
     <div class="min-h-[48rem] border lg:hidden w-full">
       <swiper
         :slides-per-view="1"

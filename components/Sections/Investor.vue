@@ -1,6 +1,6 @@
 <template>
   <div
-    class="lg:h-[61rem] h-[28rem] bg-[#F0F3F9] overflow-hidden w-full relative"
+    class="lg:h-[55rem] h-[28rem] bg-[#F0F3F9] overflow-hidden w-full relative"
   >
 
     <Flex :level="2" class="lg:mt-24 mt-4 relative z-[1001]">
@@ -107,33 +107,45 @@
         >
           <p class="text-lg">Or contact us on all our social media Platforms</p>
           <div class="flex w-1/4 justify-between mx-auto">
-            <img src="/images/Facebook.png" alt="" />
+          
+          <!-- Facebook button -->
+            <!-- <a href="">
+
+              <img src="/images/Facebook.png" alt="" />
+            </a> -->
+
+            <!-- Whatsapp  -->
             <a target="_blank" href="https://chat.whatsapp.com/Iz4YdJb4wko9s6lhM81858">
 
               <img src="/images/Whatsapp-black.png" alt="" />
             </a>
-            <a target="_blank" href="">
+            <!-- Instagram -->
+            <a target="_blank" href="https://www.linkedin.com/company/alphatech7/">
 
               <img src="/images/Instagram-black.png" alt="" />
             </a>
-            <a href="">
+            <!-- ?Twitter -->
+            <!-- <a href="">
 
               <img src="/images/Twitter.png" alt="" />
-            </a>
-            <a href="">
+            </a> -->
+
+            <!-- Linkedin -->
+            <a href="https://www.linkedin.com/company/alphatech7/" target="_blank">
 
               <img src="/images/LinkedIn.png" alt="" />
             </a>
           </div>
         </div>
       </div>
-
+      <!-- Bottom Image -->
       <img
         src="/images/Abstract.png"
-        class="hidden lg:block absolute bottom-8 mt-12 w-[6rem]"
+        class="hidden lg:block absolute bottom-28 left-[49%] w-[6rem]"
         alt=""
       />
     </Flex>
+    <!-- Background image  -->
     <img
       src="/images/Alpha-bg.png"
       class="absolute w-[46.3rem] -left-2 -bottom-1/4 lg:-bottom-0 z-[1000]"

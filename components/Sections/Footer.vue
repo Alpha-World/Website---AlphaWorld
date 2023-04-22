@@ -71,8 +71,14 @@
               <em class="lg:hidden">The Best Of Everything In One App</em>
             </div>
             <div class="flex w-full h-1/3 py-4 justify-center  gap-2 items-center">
+              <a href="https://instagram.com/alphaworldapp?igshid=YmMyMTA2M2Y=" target="_blank">
+
                 <img src="/images/Instagram-white.png" alt="">
+              </a>
+              <a href="https://www.linkedin.com/company/alphatech7/" target="_blank">
+
                 <img src="/images/Linkedin-white.png" alt="">
+              </a>
             </div>
           </div>
         </Flex>
