@@ -1,7 +1,7 @@
 <template>
     <!-- navbar configuration -->
     <div class="h-[3.69rem] flex justify-center text-xl items-center w-full bg-[#0027A6] text-white ">
-        <img src="/images/Logo-name.png" alt="">
+        <img class="w-[9.5rem]" src="/images/Logo-name.png" alt="">
     </div>
 </template>
 

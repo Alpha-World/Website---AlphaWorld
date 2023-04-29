@@ -69,7 +69,7 @@
               >
                 <img src="/images/House.png" class="w-[4rem]" alt="" />
                 <div class="flex flex-col h-1/3">
-                  <h3 class="text-xl text-gray-900 font-semibold">Location</h3>
+                  <h3 class="text-lg md:text-xl text-gray-900 font-semibold">Location</h3>
                   <p class="text-gray-600 text-sm">Dubai, UAE</p>
                 </div>
               </div>
@@ -79,7 +79,7 @@
                 <img src="/images/Message.png" class="w-[4rem]" alt="" />
                 <div class="flex flex-col h-1/3">
                   <div class="flex flex-col items-start h-1/3">
-                    <h3 class="text-xl font-semibold">Email Address</h3>
+                    <h3 class="text-lg md:text-xl font-semibold">Email Address</h3>
                     <a href="mailto:AlphaWorld@AlphaTech7.com" target="_blank" class="text-gray-600 text-sm">
                       AlphaWorld@AlphaTech7.com
                     </a>
@@ -92,7 +92,7 @@
                 <img src="/images/Phone.png" class="w-[4rem]" alt="" />
 
                 <div class="flex flex-col items-start h-1/3">
-                  <h3 class="text-xl font-semibold">Phone Number</h3>
+                  <h3 class="text-lg md:text-xl font-semibold">Phone Number</h3>
                   <a href="tel:+971585557797"  class="text-gray-600 text-sm">+971 58 555 7797</a>
                 </div>
               </div>
