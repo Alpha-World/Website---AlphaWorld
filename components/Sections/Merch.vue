@@ -10,16 +10,25 @@
             Click to Join AlphaWorld’s Community & get an exclusive AlphaWorld
             T-Shirt for Free
           </h4>
-          <div class="w-1/5 flex gap-2">
-            <span
-              class="w-10 h-10 border flex items-center justify-center rounded-full"
-            >
-              <a target="_blank" href="https://t.me/AlphaWorldApp">
+          <div class=" flex gap-2">
+           
+              <!-- <a target="_blank" href="https://t.me/AlphaWorldApp">
                 <img src="/images/telegram.png" alt="" />
-              </a>
-            </span>
+              </a> -->
 
-            <span
+              <button class="border-[#0027A6] border-b-4 rounded-[3.5rem] border-[1px] px-9 py-[0.9175rem] ">
+                <a target="_blank" href="https://t.me/AlphaWorldApp">
+                  Telegram
+                </a>
+              </button>
+              <button class="border-[#0027A6] border-b-4 rounded-[3.5rem] border-[1px] px-9 py-[0.9175rem] ">
+                <a target="_blank" href="https://chat.whatsapp.com/Iz4YdJb4wko9s6lhM81858">
+                  Whatsapp
+                </a>
+              </button>   
+            
+
+            <!-- <span
               class="w-10 h-10 border flex items-center justify-center rounded-full"
             >
               <a
@@ -28,7 +37,7 @@
               >
                 <img src="/images/whatsapp.png" alt="" />
               </a>
-            </span>
+            </span> -->
           </div>
         </Flex>
       </div>

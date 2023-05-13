@@ -1,5 +1,5 @@
 <template>
-  <div class="block-content lg:hidden">
+  <div class="block-content  lg:hidden">
     <transition
       @before-enter="onBeforeEnter"
       @enter="onEnter"
@@ -8,11 +8,11 @@
       @leave="onLeave"
       mode="out-in"
     >
-      <div v-if="!isExpanded" class="block-content__preview">
+      <div v-if="!isExpanded" class="text-left block-content__preview">
         <p ref="preview" v-html="content" />
       </div>
       <p
-      class="text-center lg:text-left"
+      class="text-left"
         v-else
         :class="{
           'block-content__paragraph': true,
@@ -97,7 +97,7 @@ export default defineComponent({
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-  padding: 24px 20px;
+  padding: 4px 0;
   background-color: transparent;
   border-radius: 8px;
   text-align: center;

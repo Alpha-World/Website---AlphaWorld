@@ -2,23 +2,23 @@
   <div class="bg-[#0027A6] text-white ">
     <Flex :level="1">
       <div class="w-3/4 mx-auto  pt-4">
-        <Flex :level="2" class="lg:pt-8 lg:py-8 gap-4">
+        <Flex :level="2" class="lg:pt-8 lg:py-8  gap-4">
             <div class="h-1/3 w-full flex flex-col items-center justify-center gap-4">
 
                 <img src="/images/Alpha-logo.png" class="lg:w-24 w-12" alt="" />
-                <img src="/images/Logo-name-footer.png" alt="" class="w-48" />
+                <img src="/images/Logo-name-footer.png" alt="" class="lg:w-48 w-[118px] py-4" />
             </div>
           <em class="text-xl hidden lg:block">The Best Of Everything In One App</em>
           <div
-            class=" w-[24rem] lg:w-[32rem]  shadow-md lg:shadow-none justify-center lg:gap-4 flex items-center flex-row  px-2 lg:px-0"
+            class=" w-[80vw] lg:w-[32rem]  shadow-md lg:shadow-none justify-center lg:gap-4 flex items-center flex-row py-4 pr-1 pl-2 lg:px-0"
           >
             <p class=" whitespace-nowrap lg:text-xl text-sm  justify-self-end">Coming soon...</p>
             <button
              
-              class="bg-black hidden py-1 lg:flex rounded-md lg:items-center px-2  items-start "
+              class="bg-black hidden py-0 lg:flex rounded-md lg:items-center px-2  items-start "
             >
               <div class="basis-1/3 ">
-                <img class="w-[2rem]"  src="/images/Apple-logo.png"  alt="" />
+                <img class="!w"  src="/images/Apple-logo.png"  alt="" />
               </div>
               <div class="basis-2/3  flex flex-col text-center text-xs lg:text-sm">
                 <p class="text-[10px] whitespace-nowrap">Available on the</p>
@@ -30,7 +30,7 @@
               class="bg-black ml-2 px-2 py-1 rounded-md hidden lg:flex lg:items-center"
             >
               <div class="basis-1/3 ">
-                <img class="w-[2rem]" src="/images/Play-store.png" alt="" />
+                <img class="w-[1.2rem]" src="/images/Play-store.png" alt="" />
               </div>
               <div class="basis-2/3 text-sm">
                 <p class="text-[10px] whitespace-nowrap">Get it on</p>

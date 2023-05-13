@@ -119,7 +119,7 @@
             </div>
             <div class="w-[80%]">
               <Flex :level="2" class="mx-auto">
-                <h2 class="text-base font-semibold">{{ data.header }}</h2>
+                <h2 class="text-base text-left font-semibold">{{ data.header }}</h2>
 
                 <ExpandableContentMobile :content="data.text" :visible-lines="6" />
               </Flex>
