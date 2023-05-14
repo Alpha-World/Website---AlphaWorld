@@ -5,13 +5,16 @@
   >
     <div class="pl-4">
       
-      <!-- Instagram -->
+      <!-- Telegram -->
       <a target="_blank" href="https://www.linkedin.com/company/alphatech7/">
-        <img class="w-4 md:w-auto" src="/images/telegram.png" alt="" />
+        <img class="w-4 md:w-auto" src="/images/Telegram.png" alt="" />
       </a>
     </div>
     <img class="w-[9.5rem]" src="/images/Logo-name.png" alt="" />
+
     <div class="pr-4 ">
+      <!-- Whatsapp -->
+
         <a
         target="_blank"
         href="https://chat.whatsapp.com/Iz4YdJb4wko9s6lhM81858"
