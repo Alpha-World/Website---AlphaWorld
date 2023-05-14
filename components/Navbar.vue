@@ -7,7 +7,7 @@
       
       <!-- Telegram -->
       <a target="_blank" href="https://www.linkedin.com/company/alphatech7/">
-        <img class="w-4 md:w-auto" src="/images/Telegram.png" alt="" />
+        <img class="w-4 md:w-auto" src="/images/telegram.png" alt="" />
       </a>
     </div>
     <img class="w-[9.5rem]" src="/images/Logo-name.png" alt="" />
