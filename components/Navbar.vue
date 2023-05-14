@@ -19,7 +19,7 @@
         target="_blank"
         href="https://chat.whatsapp.com/Iz4YdJb4wko9s6lhM81858"
       >
-        <img class="w-4 md:w-auto" src="/images/Whatsapp.png" alt="" />
+        <img class="w-4 md:w-auto" src="/images/whatsapp.png" alt="" />
       </a>
     </div>
   </div>
