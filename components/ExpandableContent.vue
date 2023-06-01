@@ -9,7 +9,7 @@
       mode="out-in"
     >
       <div v-if="!isExpanded" class="block-content__preview">
-        <p ref="preview" v-html="content" />
+        <p class="text-[#1E1E1E]" ref="preview" v-html="content" />
       </div>
       <p
         v-else
@@ -94,7 +94,7 @@ export default defineComponent({
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-  padding: 24px 20px;
+  padding: 0 20px;
   background-color: transparent;
   border-radius: 8px;
 }
@@ -102,7 +102,7 @@ export default defineComponent({
   /* default line-height is 24px */
   max-height: calc(24px * v-bind(visibleLines));
   overflow: hidden;
-  color: black;
+ 
 }
 .block-content__paragraph {
   color: black;

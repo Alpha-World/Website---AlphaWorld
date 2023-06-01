@@ -2,8 +2,8 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
+    "build": "nuxt build ",
+    "dev": "nuxt dev --port 5000",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
