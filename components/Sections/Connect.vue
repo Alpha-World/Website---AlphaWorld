@@ -60,8 +60,7 @@
             </h4>
             <div class="flex flex-col">
               <p class="hidden text-lg lg:block">
-                AlphaWorld is a secure all-in-one mobile app which offers
-                multiple features ranging from:
+                AlphaWorld is a secure all-in-one easy to use mobile app which provides multiple solutions with features ranging from:
               </p>
               <ExpandableContent
                 :content="text"

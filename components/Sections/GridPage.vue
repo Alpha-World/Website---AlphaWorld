@@ -111,7 +111,7 @@
             <div
               class="min-h-3/5 bg-indigo-400/60 flex justify-center w-[80%] py-2 rounded-2xl"
             >
-              <img :src="data.image" class=" " alt="" />
+              <img :src="data.image" class="w-3/4 " alt="" />
             </div>
             <div class="w-[80%]">
               <Flex :level="2" class="mx-auto">
