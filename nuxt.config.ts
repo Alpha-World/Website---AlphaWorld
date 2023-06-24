@@ -2,6 +2,17 @@
 // import {defineNuxtModule} from 'nuxt'
 
 export default defineNuxtConfig({
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      meta:[{
+        name:"robots",
+        content:"Index"
+      }]
+    },
+  },
+
   css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {
