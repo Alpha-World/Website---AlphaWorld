@@ -1,8 +1,8 @@
 <template>
 	<div
-		class="bg-white lg:pb-[4rem] pt-[2.5rem] lg:pt-[20rem] lg:pb mt-[12rem]"
+		class="bg-white lg:pb-[4rem] pt-[2.5rem] lg:pt-[8rem] lg:pb mt-[12rem]"
 	>
-		<div class="lg:w-4/5 mx-auto text-white">
+		<div class="lg:max-w-[75vw] mx-auto text-white">
 			<Flex :level="2" class="justify-center">
 				<div
 					class="bg-[#0027A6] mb-8 lg:mb-20 rounded-xl w-[85%] lg:w-[60%]"
@@ -80,7 +80,7 @@
 							</span>
 						</h4>
 						<div class="flex flex-col">
-							<p class="hidden text-lg lg:block">
+							<p class="hidden  lg:block">
 								AlphaWorld is a secure all-in-one
 								easy to use mobile app which
 								provides multiple solutions with
